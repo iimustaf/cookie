@@ -1,6 +1,7 @@
 function setCookie() {
   var Name = document.form.name.value;
-  document.cookie = "username=" + Name + "; max-age=3600; path=/";
+  // Added SameSite=Lax for modern browser compatibility
+  document.cookie = "username=" + Name + "; max-age=3600; path=/; SameSite=Lax";
   window.alert("Cookie Done");
 }
 function getCookie()
