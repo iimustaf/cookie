@@ -1,0 +1,13 @@
+body{
+    background-color: LightCyan;}
+#header{
+    background-color: Linen; text-align: center; font-family: Verdana;
+    font-size: 200%; border: 5px solid CadetBlue; color: RosyBrown; padding: 7px; }
+input[type=text] {
+    width: 10%; background-color: Thistle; border: 2px solid Tomato;
+    color: Green; font-size: 70%; text-align: center; padding: 5px; margin: 4px; }
+input[type=button] {
+    background-color: SkyBlue; color: Sienna; font-size: 100%;
+    border: 2px solid lightSalmon; padding: 5px; margin-left: 180px;}
+#f{
+    font-family: MV Boli; font-size: 170%; color: DarkCyan; font-weight: bold; }
