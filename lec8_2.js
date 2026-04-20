@@ -2,7 +2,7 @@ function setCookie()
 {
   var Name=document.form.name.value;
 
-  document.cookie ="Hello "+Name+";"+ "expires=Fri, 01 Dec 2023 12:00:00 UTC";
+  document.cookie = "Hello=" + Name + "; expires=Tue, 19 Jan 2030 12:00:00 UTC; path=/";
   window.alert("Cookie Done");
 }
 function getCookie()
