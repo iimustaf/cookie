@@ -1,8 +1,6 @@
-function setCookie()
-{
-  var Name=document.form.name.value;
-
-  document.cookie = "Hello=" + Name + "; expires=Tue, 19 Jan 2030 12:00:00 UTC; path=/";
+function setCookie() {
+  var Name = document.form.name.value;
+  document.cookie = "username=" + Name + "; max-age=3600; path=/";
   window.alert("Cookie Done");
 }
 function getCookie()
